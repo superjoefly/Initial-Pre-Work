@@ -1,10 +1,12 @@
 
-// Learned how to Construct Strings with Variables
+// Learned how to Concatenate Strings with the Plus Equals Operator
 
 // Example
-var ourName = "freeCodeCamp";
-var ourStr = "Hello, our name is " + ourName + ", how are you?";
+var ourStr = "I come first. ";
+ourStr += "I come second.";
 
 // Only change code below this line
-var myName = "Joseph Atwood";
-var myStr = "My name is " + myName + " and I am well!";
+
+var myStr = "This is the first sentence. ";
+
+myStr += "This is the second sentence.";

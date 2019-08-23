@@ -1,13 +1,10 @@
 
-// Learned how to Append Variables Using Strings
+// Learned how to Construct Strings with Variables
 
 // Example
-var anAdjective = "awesome!";
-var ourStr = "freeCodeCamp is ";
-ourStr += anAdjective;
+var ourName = "freeCodeCamp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?";
 
 // Only change code below this line
-
-var someAdjective = "awesome!";
-var myStr = "Learning to code is ";
-myStr += someAdjective;
+var myName = "Joseph Atwood";
+var myStr = "My name is " + myName + " and I am well!";
