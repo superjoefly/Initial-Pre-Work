@@ -37,25 +37,25 @@ var collectionCopy = JSON.parse(JSON.stringify(collection));
 function updateRecords(id, prop, value) {
 
   if (prop == "tracks" && value != "") {
-    // if prop exists...
+    // if tracks prop exists in collection...
     if (collection[id][prop]) {
       // push the value:
       collection[id][prop].push(value);
-      // if prop doesn't exist...
+      // if tracks prop doesn't exist in collection...
     } else {
-      // set prop to new array with value:
+      // create tracks prop array and initialize with value:
       collection[id][prop] = [value];
     }
-    // if value is not empty...
+    // if prop isn't tracks and value is not empty...
   } else if (value != "") {
-    // set the value for the property:
+    // set the value for the prop:
     collection[id][prop] = value;
-    // if value is empty...
+    // if prop isn't tracks and value is empty...
   } else if (value == "") {
     // delete the property:
     delete collection[id][prop];
   }
-
+  // return collection to caller:
   return collection;
 }
 
