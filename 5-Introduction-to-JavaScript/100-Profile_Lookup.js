@@ -1,7 +1,5 @@
 
 // Completed Profile Lookup Challenge
-<<<<<<< HEAD
-=======
 
 //Setup
 var contacts = [
@@ -56,4 +54,3 @@ for (var i = 0; i < contacts.length; i++) {
 
 // Change these values to test your function
 lookUpProfile("Akira", "likes");
->>>>>>> 76ace5a33b3216d8334091712688a24b0866608a
